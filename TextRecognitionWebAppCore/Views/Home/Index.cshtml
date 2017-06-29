@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <form method="post" enctype="multipart/form-data" action="/">
+        <div>
+            <p>Upload one or more files using this form:</p>
+            <input type="file" name="files" />
+        </div>
+        <div>
+            <input type="submit" value="Upload" />
+        </div>
+    </form>
+
+<div class="row">
+    <h1>@ViewBag.PhotoText</h1>
+</div>
